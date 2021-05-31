@@ -15,14 +15,21 @@
         <div class="wrapper wrapper-top">
             <header class="header">
                 <div class="container">
-                    <img src="./img/logo.svg" alt="logo">
-                    <nav class="nav">
-                        <a href="#" class="nav__item">Articles</a>
-                        <a href="#" class="nav__item">Locations</a>
-                        <a href="#" class="nav__item">Videos</a>
-                        <a href="#" class="nav__item">Sign in</a>
-                    </nav>
-                </div>
+                    <div>
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="header__menu menu">
+                        <nav class="nav">
+                            <a href="#" class="nav__item">Articles</a>
+                            <a href="#" class="nav__item">Locations</a>
+                            <a href="#" class="nav__item">Videos</a>
+                            <a href="#" class="nav__item">Sign in</a>
+                        </nav>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div> 
             </header>
             <div class="top-body">
                 <div class="top-body-text">
@@ -235,7 +242,7 @@
     <footer class="footer">
         <div class="wrapper wrapper-bottom">
             <div class="footer-body">
-                <img class="footer-body__img" src="./img/big-logo.svg" alt="logo">
+                <img class="footer-body__img" src="/img/big-logo.svg" alt="logo">
                 <div class="container">
                     <div class="footer-body__column column">
                         <a href="#" class="column__item_big">Company</a>
@@ -262,5 +269,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
