@@ -870,3 +870,18 @@ body {
     font-weight: 400;
     font-size: 1.8rem;
 }
+
+article.town-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.town-card-bottom {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+p.town-card-bottom__text {
+    flex: 1 1 auto;
+}
