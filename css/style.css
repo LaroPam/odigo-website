@@ -462,7 +462,7 @@ body {
 }
 @media (max-width: 830px) {
     .benefits {
-        top: -1300px;
+        top: -1400px;
         width: 80%;
         margin: 0 10% 0 10%;
     }
@@ -470,7 +470,7 @@ body {
 @media (max-width: 576px) {
     .benefits {
         padding: 30px;
-        top: -1150px;
+        top: -1200px;
     }
 }
 .benefits .container {
