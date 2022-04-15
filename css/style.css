@@ -406,6 +406,17 @@ body {
     background-position: center center;
     background-size: cover;
 }
+
+.places-video iframe {
+    height: 735px;
+    @media (max-width: 768px) {
+        height: 400px;
+    }
+    @media (max-width: 400px) {
+        height: 230px;
+    }
+}
+
 @media (max-width: 768px) {
     .places-video {
         padding: 100px 0;
