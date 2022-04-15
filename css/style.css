@@ -409,10 +409,15 @@ body {
 
 .places-video iframe {
     height: 735px;
-    @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+    .places-video iframe{
         height: 400px;
     }
-    @media (max-width: 400px) {
+}
+@media (max-width: 400px) {
+    .places-video iframe {
         height: 230px;
     }
 }
