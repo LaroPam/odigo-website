@@ -553,6 +553,14 @@ body {
     align-items: center;
     margin: 0 0 36px 0;
 }
+
+@media (max-width: 380px) {
+    .trip-header a {
+        display: none;    
+    }
+}
+
+
 .trip-gallery {
     display: -ms-grid;
     display: grid;
