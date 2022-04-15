@@ -385,19 +385,28 @@ body {
     padding: 550px 0 0 0;
     background-color: #fff;
 }
+
 @media (max-width: 830px) {
     .places {
         padding: 1000px 0 0 0;
     }
 }
+
 @media (max-width: 576px) {
     .places {
         padding: 920px 0 0 0;
     }
 }
+
+@media (max-width: 406px) {
+    .places {
+        padding: 1150px 0 0 0;
+    }
+}
 .places-focus {
     margin: 130px 0;
 }
+
 .places-video {
     text-align: center;
     padding: 250px 0;
@@ -462,7 +471,7 @@ body {
 }
 @media (max-width: 830px) {
     .benefits {
-        top: -1400px;
+        top: -1300px;
         width: 80%;
         margin: 0 10% 0 10%;
     }
@@ -475,12 +484,12 @@ body {
 }
 @media (max-width: 480px) {
     .benefits {
-    top: -1300px;
+    top: -1250px;
     }
 }
 @media (max-width: 400px) {
     .benefits {
-    top: -1600px;
+    top: -1460px;
     }
 }
 .benefits .container {
