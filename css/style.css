@@ -422,19 +422,19 @@ body {
 
 @media (max-width: 1200px) {
     .frame{
-        height: 550px!;
+        height: 550px;
     }
 }
 
 @media (max-width: 768px) {
     .frame{
-        height: 400px!;
+        height: 400px;
     }
 }
 
 @media (max-width: 400px) {
     .frame {
-        height: 230px!;
+        height: 230px;
     }
 }
 
