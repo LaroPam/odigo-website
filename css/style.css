@@ -473,6 +473,16 @@ body {
         top: -1200px;
     }
 }
+@media (max-width: 480px) {
+    .benefits {
+    top: -1300px;
+    }
+}
+@media (max-width: 400px) {
+    .benefits {
+    top: -1600px;
+    }
+}
 .benefits .container {
     margin: 120px 0 0 0;
     display: -ms-grid;
