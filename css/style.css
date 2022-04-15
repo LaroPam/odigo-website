@@ -407,17 +407,24 @@ body {
     background-size: cover;
 }
 
-.places-video iframe {
+.frame {
     height: 735px;
 }
 
+@media (max-width: 1200px) {
+    .frame{
+        height: 550px;
+    }
+}
+
 @media (max-width: 768px) {
-    .places-video iframe{
+    .frame{
         height: 400px;
     }
 }
+
 @media (max-width: 400px) {
-    .places-video iframe {
+    .frame {
         height: 230px;
     }
 }
