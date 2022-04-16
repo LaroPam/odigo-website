@@ -24,6 +24,7 @@ body {
     max-width: 1280px;
 }
 
+
 .top {
     background-image: url(../img/prir.jpg);
     background-color: #1f1b1b;
@@ -32,12 +33,60 @@ body {
     background-position: center center;
     padding: 56px 0 370px 0;
 }
+
+.murmansk {
+    background-image: url('../img/mur_fon.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.severomorsk {
+    background-image: url('../img/sev_back.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.apatity {
+    background-image: url('../img/apa_back.jpg');
+    background-repeat: no-repeat;
+}
+
+.monchegorsk {
+    background-image: url('../img/mon_back.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.kandalaksha {
+    background-image: url('../img/kan_back.jpg');
+    background-repeat: no-repeat;
+}
+
 .top-body {
     margin: 180px 0 0 0;
 }
 @media (max-width: 576px) {
     .top-body {
         margin: 90px 0 0 0;
+    }
+}
+.top-body-video {
+    width: 100%;
+    height: 600px;
+}
+@media (max-width: 1240px) {
+    .top-body-video {
+        height: 600px;
+    }
+}
+@media (max-width: 850px) {
+    .top-body-video {
+        height: 480px;
+    }
+}
+@media (max-width: 600px) {
+    .top-body-video {
+        height: 300px;
     }
 }
 .top-body-text {
